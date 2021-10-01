@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home |myproject</title>
+    <style>
+        body{
+            background:black;
+        }
+        #container{
+            width: 900px;
+            overflow: hidden;
+            border: 2px wheat solid;
+            margin: 30px auto;
+            padding: 10px;
+            background: grey;
+        }
+        header h1{
+            text-transform: capitalize;
+            text-align: center;
+            letter-spacing: 3px;
+            text-shadow: 3px 2px brown;
+        }
+        nav{
+            height: 40px;
+            background: cyan;
+        }
+        nav ul{
+            padding-top: 13px;
+            padding-left: 10px;
+        }
+        nav li{
+            list-style-type: none;
+            float: left;
+            padding-right: 70px;
+        }
+        nav .active{
+            font-weight: bold;
+            color: black;
+        }
+        a{
+            text-decoration: none;
+            color: RED;
+        }
+        main h1{
+            text-transform: capitalize;
+            text-shadow: 3px 2px brown;
+            text-align: center;
+        }
+        main{
+            float: left;
+            width: 60%;
+        }
+        aside{
+            padding: 10px;
+            width: 30%;
+            background:cyan;
+            margin-top: 20px;
+            float: right;
+        }   
+        aside h1{
+            text-align: center;
+            text-transform: capitalize;
+            text-shadow: 3px 2px white;
+        }
+        .clr{
+            clear: both;
+        } 
+        footer{
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            background:cyan;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>my new project</h1>
+    </header>
+    <nav>
+        <ul>
+           <li><a class="active" href="https://www.facebook.com/akande.olalekan.1238">Facebook</a></li>
+           <li><a href="https://mobile.twitter.com/AkandeO08920463">Twitter</a></li>
+           <li><a href="https://wa.me/message/BUW6NXAJ2A3HA1">Whatsapp</a></li>
+           <li><a href="https://medium.com/@akandeolalekantoheeb9/introduction-to-web-development-81c7d3696f94">Medium</a></li>
+           <li><a href="https://www.instagram.com/muh_toyyib_0/">Instagram</a></li>
+           <li><a href="https://www.linkedin.com/in/akande-olalekan-toheeb-2a69a0221/">Linkedln</a></li>
+           <li><a href="https://github.com/Muhtoyyib">Github</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Main content</h1>
+        <p>This section display the main content of a page. YOu can put anything here </p>
+    </main>
+    <aside>
+        <h1>
+            the aside section 
+        </h1>
+        <p>
+            this is a content aisde from the main part of the web pages. it is mainly useed to showcase some important messages of the web page 
+        </p>
+    </aside>
+    <div class="clr"></div>
+    <footer>
+        <p>Copyright &copy; Muhtoyyib 2021</p>
+    </footer>
+    </div>
+</body>
+</html>
